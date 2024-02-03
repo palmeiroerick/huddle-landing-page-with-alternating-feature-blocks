@@ -1,23 +1,17 @@
 import Image from "next/image";
 
-const Logo = () => {
+type LogoProps = {
+  white?: boolean;
+};
+
+const Logo = ({ white }: LogoProps) => {
+  const logo = white ? "/assets/logo-white.svg" : "/assets/logo.svg";
+  const width = white ? "w-40" : "w-[100px]";
+
   return (
-    <div className="relative w-[240px] h-[39px] ">
-      <Image
-        className="object-contain"
-        src="/assets/logo.svg"
-        alt="Huddle"
-        fill
-      />
+    <div className={`${width} relative h-[28px]`}>
+      <Image className="object-contain" src={logo} alt="Huddle" fill />
     </div>
-    // <div className="relative w-[240px] h-[39px]">
-    //   <Image
-    //     className="object-contain"
-    //     src="/assets/logo-white.svg"
-    //     alt="Huddle"
-    //     fill
-    //   />
-    // </div>
   );
 };
 
