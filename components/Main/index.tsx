@@ -3,7 +3,7 @@ import GetStarted from "../GetStarted";
 
 const Main = () => {
   return (
-    <main>
+    <main className="w-[375px] m-auto px-4 my-14">
       <Cards />
       <GetStarted />
     </main>
