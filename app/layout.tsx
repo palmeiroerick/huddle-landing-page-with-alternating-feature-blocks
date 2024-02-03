@@ -8,7 +8,7 @@ const RootLayout = ({
   children: ReactNode;
 }>) => {
   return (
-    <html lang="en" className={`${poppins.className} ${openSans.className}`}>
+    <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
       <body>{children}</body>
     </html>
   );
