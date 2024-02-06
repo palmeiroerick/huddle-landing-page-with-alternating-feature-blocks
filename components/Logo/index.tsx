@@ -6,7 +6,7 @@ type LogoProps = {
 
 const Logo = ({ white }: LogoProps) => {
   const logo = white ? "/assets/logo-white.svg" : "/assets/logo.svg";
-  const width = white ? "w-40" : "w-[100px]";
+  const width = white ? "w-40" : "w-[100px] lg:w-[144px]";
 
   return (
     <div className={`${width} relative h-[28px]`}>
