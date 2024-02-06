@@ -1,15 +1,23 @@
+type LinkProps = {
+  children: string;
+};
+
+const Link = ({ children }: LinkProps) => {
+  return <a className="cursor-pointer hover:underline">{children}</a>;
+};
+
 const Links = () => {
   return (
-    <section className="flex flex-col gap-4 lg:flex-row lg:gap-32 font-openSans text-lg lg:mt-[52px]">
+    <section className="flex flex-col gap-4 font-openSans text-lg lg:mt-[52px] lg:flex-row lg:gap-32">
       <div className="flex flex-col gap-4">
-        <a>About Us</a>
-        <a>What We Do</a>
-        <a>FAQ</a>
+        <Link>About Us</Link>
+        <Link>What We Do</Link>
+        <Link>FAQ</Link>
       </div>
       <div className="flex flex-col gap-4">
-        <a>Career</a>
-        <a>Blog</a>
-        <a>Contact Us</a>
+        <Link>Career</Link>
+        <Link>Blog</Link>
+        <Link>Contact Us</Link>
       </div>
     </section>
   );
