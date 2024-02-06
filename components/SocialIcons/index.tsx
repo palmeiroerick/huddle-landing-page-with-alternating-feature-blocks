@@ -1,9 +1,9 @@
 const SocialIcons = () => {
   const iconClassName =
-    "border-veryPaleCyan fill-veryPaleCyan flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-[1px] p-2";
+    "flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-[1px] border-veryPaleCyan fill-veryPaleCyan p-2 hover:border-pink hover:fill-pink";
 
   return (
-    <div className="flex flex-row gap-6">
+    <div className="flex flex-row gap-6 ">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className={iconClassName}
