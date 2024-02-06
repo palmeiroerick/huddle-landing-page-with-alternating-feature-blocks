@@ -4,7 +4,7 @@ const GetStarted = () => {
       <h2 className="font-poppins text-lg font-bold lg:text-2xl">
         Ready To Build Your Community?
       </h2>
-      <button className="h-10 w-48 rounded-full bg-pink font-openSans text-xs font-bold text-white shadow-[0_2px_12px] shadow-[#a8c1ffa1] lg:h-12 lg:w-72">
+      <button className="h-10 w-48 rounded-full bg-pink font-openSans text-xs font-bold text-white shadow-[0_2px_12px] shadow-[#a8c1ffa1] hover:bg-[#ff8ad4] lg:h-12 lg:w-72">
         Get Started For Free
       </button>
     </div>
