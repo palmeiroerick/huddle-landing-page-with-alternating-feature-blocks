@@ -18,11 +18,11 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot 2024-02-05 at 23 52 31](https://github.com/palmeiroerick/huddle-landing-page-with-alternating-feature-blocks/assets/148393698/1e6fb838-6cde-4014-ad24-4b0c16433a77)
 
 ## Links
 
-- [Solution]()
+- [Solution](https://github.com/palmeiroerick/huddle-landing-page-with-alternating-feature-blocks)
 - [Live Site]()
 
 ## Built with
