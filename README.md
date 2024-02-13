@@ -23,7 +23,7 @@ Users should be able to:
 ## Links
 
 - [Solution](https://github.com/palmeiroerick/huddle-landing-page-with-alternating-feature-blocks)
-- [Live Site]()
+- [Live Site](https://huddle-landing-page-with-alternating-feature-blocks-gamma-two.vercel.app/)
 
 ## Built with
 
